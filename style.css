@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Poiret+One&display=swap');
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Poiret One', cursive;
+}
+
+body{
+    background-color: aqua;
+}
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 30vw);
+    gap: 10px;
+}
+
+.square {
+    border-color: black;
+    outline: solid;
+    text-align: center;
+    vertical-align: center;
+}
+
+.blue{
+    background-color: orange;
+}
+
+button {
+    background-color: darkgray;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Poiret One', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    display: inline-block;
+    width: 700px;
+    display: grid;
+    margin: auto;  
+}
